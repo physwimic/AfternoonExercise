@@ -1,0 +1,6 @@
+cd ../Data
+
+for x in *csv
+	do
+	mv $x ${x/./_2014_06_30.}
+done
