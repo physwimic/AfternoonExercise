@@ -1,0 +1,6 @@
+
+cd ../Data
+for x in *.csv
+	do 
+	wc -l $x >> LineCount.txt
+done
